@@ -7,7 +7,10 @@ int main(void)
 	// Hannah Asks the user to input a set of players (max 6). For each player the user has to select a type (Elf, Human, Ogre, Wizard) and input a name.
    printf("Please input  number of players 2-6");
    scanf ("d%", &input);
-   if (imput 
+   while (input <2 || input > 6){
+   printf("Input is invaid, Please input  number of players 2-6");
+   scanf ("d%", &input);
+   }
   // Hannah Each player will be represented as a struct characterised by the fields identifying the player (player type and player name), life points, and the fields characterising the player capabilities (Smartness, Strength, Magic Skills, Luck and Dexterity). 
   // Hannah The life points are represented as an integer initially set to 100. 
  
