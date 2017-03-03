@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main(void) 
+int main(void) //hey
 {
 	int input;
 	int a,b;
